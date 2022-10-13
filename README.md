@@ -9,6 +9,7 @@ Project created at Rocketseat's Ignite Lab event, where we built a complete Desi
 - Radix Ui
 - Storybook
 - CD/CI with GitHub actions
+- Jest and Testing Library
 
 ## Figma Layout
 
