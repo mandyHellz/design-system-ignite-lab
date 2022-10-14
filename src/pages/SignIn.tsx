@@ -40,7 +40,7 @@ export const SignIn = () => {
         onSubmit={handleSignIn}
         className="flex flex-col items-stretch w-full max-w-sm mt-10 gap-4"
       >
-        {isUserSignedIn && <Text>Usuário Logado</Text>}
+        {isUserSignedIn && <Text>Usuário Logado!</Text>}
         <label htmlFor="email" className="flex flex-col gap-3">
           <Text className="font-semibold">Endereço de e-mail</Text>
 
