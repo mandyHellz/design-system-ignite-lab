@@ -8,7 +8,7 @@ import { Text } from "../components/Text";
 import { TextInput } from "../components/TextInput";
 import { Logo } from "../Logo";
 
-export const SignIn = () => {
+export const Signin = () => {
   const [isUserSignedIn, setIsUserSignedIn] = useState<boolean>(false);
 
   async function handleSignIn(event: FormEvent) {
