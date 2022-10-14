@@ -8,10 +8,10 @@ import { Text } from "../components/Text";
 import { TextInput } from "../components/TextInput";
 import { Logo } from "../Logo";
 
-export const Signin = () => {
+export const Login = () => {
   const [isUserSignedIn, setIsUserSignedIn] = useState<boolean>(false);
 
-  async function handleSignIn(event: FormEvent) {
+  async function handleLogin(event: FormEvent) {
     event.preventDefault();
 
     await axios.post("/sessions", {
@@ -37,7 +37,7 @@ export const Signin = () => {
       </header>
 
       <form
-        onSubmit={handleSignIn}
+        onSubmit={handleLogin}
         className="flex flex-col items-stretch w-full max-w-sm mt-10 gap-4"
       >
         {isUserSignedIn && <Text>Usuário Logado!</Text>}

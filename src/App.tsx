@@ -1,10 +1,10 @@
-import { Signin } from "./pages/Signin";
+import { Login } from "./pages/Login";
 import "./styles/global.css";
 
 export function App() {
   return (
     <div>
-      <Signin />
+      <Login />
     </div>
   );
 }
